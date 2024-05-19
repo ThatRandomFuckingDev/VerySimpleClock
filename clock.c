@@ -1,3 +1,8 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <gtk/gtk.h>
+
+GtkWidget *clockLabel;
 
 static gboolean update_clock(gpointer data) {
     time_t rawtime;
